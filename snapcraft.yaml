@@ -15,4 +15,4 @@ parts:
 
 apps:
   snapcraft-go-helloworld:
-    command: gphotos-uploader
+    command: snapcraft-go-helloworld
