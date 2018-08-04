@@ -1,18 +1,18 @@
-name: snapcraft-go-helloworld
+name: go-snaps-helloworld
 version: git
-summary: A command line tool to upload to google photos
+summary:  A starter example of how to package a go app into a snap
 description: |
-  snapcraft-go-helloworld lets you upload folders of media to google photos.
+  A starter example of how to package a go app into a snap
 
 grade: devel
 confinement: devmode
 
 parts:
-  snapcraft-go-helloworld:
+  go-snaps-helloworld:
     source: .
     plugin: go
     go-importpath: github.com/nmrshll/snapcraft-go-helloworld
 
 apps:
-  snapcraft-go-helloworld:
+  go-snaps-helloworld:
     command: snapcraft-go-helloworld
