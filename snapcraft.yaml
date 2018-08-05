@@ -10,6 +10,7 @@ confinement: devmode
 parts:
   go-snaps-helloworld:
     source: .
+    source-branch: gphotos-uploader-cli
     plugin: go
     go-importpath: github.com/nmrshll/snapcraft-go-helloworld
 
