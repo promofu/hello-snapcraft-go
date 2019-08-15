@@ -1,4 +1,4 @@
-name: go-snaps-helloworld
+name: jg-go-snaps-helloworld
 version: git
 summary:  A starter example of how to package a go app into a snap
 description: |
@@ -12,8 +12,7 @@ parts:
     source: .
     source-branch: gphotos-uploader-cli
     plugin: go
-    go-importpath: github.com/nmrshll/snapcraft-go-helloworld
-
+    go-importpath: github.com/promofu/hello-snapcraft-go
 apps:
   go-snaps-helloworld:
     command: snapcraft-go-helloworld
